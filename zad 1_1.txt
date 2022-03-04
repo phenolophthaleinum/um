@@ -1,0 +1,9 @@
+Napisz program, który pobiera dane użytkownika: imię, nazwisko, telefon, kod pocztowy, miasto. Program powinien sprawdzać, czy:
+
+Imię, nazwisko i miasto zaczynają się wielką literą
+
+telefon jest w formacie: (61) 222-45-56
+
+kod pocztowy jest w formacie: 11-111
+
+Użyj wyrażeń regularnych.

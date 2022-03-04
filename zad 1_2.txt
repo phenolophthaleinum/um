@@ -1,0 +1,1 @@
+Napisz program, który znajdzie w tekście jak największą liczbę wulgaryzmów i zastąpi je ciągiem znaków "---". Użyj wyrażeń regularnych.

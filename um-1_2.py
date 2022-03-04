@@ -5,7 +5,7 @@ import regex as re
 with open('wulgaryzmy.json', 'r', encoding='utf-8') as f:
     database = json.load(f)
 # print(database)
-text = "Ziobro, kurwo jebana przestań mi rodzinę prześladować, śmierdzielu"
+text = "Ziombro, kurwo jebana przestań mi rodzinę prześladować, śmierdzielu"
 print(text)
 regex = re.compile('|'.join(re.escape(x) for x in database))
 # print(re.findall(regex, text))

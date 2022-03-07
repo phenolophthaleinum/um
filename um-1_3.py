@@ -8,4 +8,3 @@ with open("site-github.txt", 'r', encoding='utf-8') as f_big, open("site-gmail.t
     # print(re.findall(r'.*@.*\.\w+', text))
     output = [re.findall(r'[\w.+-]+@[\w-]+\.[\w.-]+', text) for text in [text_big, text_small]]
     print(f"site-github: {output[0]},\nsite-gmail: {output[1]}")
-

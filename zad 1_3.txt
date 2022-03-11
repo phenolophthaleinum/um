@@ -1,0 +1,3 @@
+Napisz program do znajdowania wszystkich e-maili w pliku. Przetestuj go na
+
+zapisanym źródle strony internetowej zawierającej e-maile.

@@ -1,5 +1,6 @@
 import regex as re
 
+
 while True:
     name = input("your name: ")
     cmp = re.match(r"^\p{Lu}", name)  # match also polish letters and in upper
@@ -26,6 +27,7 @@ while True:
     else:
         print("Must be in following format, e.g. (61) 222-45-56")
         continue
+
 while True:
     code = input("your postal code: ")
     cmp = re.match(r'\d{2}-\d{3}$', code)
